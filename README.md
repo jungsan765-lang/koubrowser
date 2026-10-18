@@ -146,3 +146,13 @@ scripts/run-http-server-for-update-check.bat
 ```
 
 scripts/releases/配下に更新情報メタファイルlatest.yml等を配置します。
+
+## 表示言語 / 표시 언어
+
+日本語を既定の表示言語として維持しています。設定の「一般」末尾にある「表示言語」で日本語・한국어を選択できます。変更はアプリの再起動後に反映され、既存の設定ファイルに保存されます。ゲーム画面自体や通信データは翻訳・変更しません。
+
+한국어를 선택하면 일반 UI를 한국어로 표시합니다. **전문 용어 검증은 진행 중이며 전체 한국어화가 완료된 상태가 아닙니다.** 미확정 용어와 아직 등록되지 않은 게임 명칭은 일본어 원문으로 표시합니다. [용어집](KOREAN_GLOSSARY.md), [검수 목록](KOREAN_REVIEW.md), [현지화 개발 안내](docs/localization/README.md)를 참고하세요.
+
+한국어 현지화 기여 / Korean localization contribution: [jungsan765-lang](https://github.com/jungsan765-lang).
+
+元のライセンスと著作権表示は変更していません。

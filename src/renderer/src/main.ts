@@ -1,3 +1,4 @@
+import { t } from '@renderer/i18n'
 import { GameChannel } from '@common/channel'
 import { GameSetting } from '@common/setting'
 import { AppState } from '@common/state'
@@ -22,7 +23,7 @@ import { MainRendererState } from '@renderer/store/renderer_state'
 
 // if assist window change title
 if (EnvRenderer.isAssist) {
-  document.title = '甲ブラウザ アシストウィンドウ';
+  document.title = t('甲ブラウザ アシストウィンドウ');
 }
 
 // ボタン状態はアプリコンポ表示前に反映させておく
@@ -37,6 +38,8 @@ if (! EnvRenderer.isAssist) {
 }
 
 streamInitialize(async () => {
+
+  document.title = t(EnvRenderer.isAssist ? '甲ブラウザ アシストウィンドウ' : '甲ブラウザ')
 
   // initialized svdata. start vue app.
   const app = createApp(App)

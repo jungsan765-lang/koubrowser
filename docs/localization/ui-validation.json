@@ -1,0 +1,41 @@
+{
+  "screens": 12,
+  "languages": [
+    "ja",
+    "ko"
+  ],
+  "viewport": {
+    "width": 1040,
+    "height": 800
+  },
+  "runtime_errors": 0,
+  "horizontal_overflow": 0,
+  "clipped_controls": 0,
+  "japanese_existing_controls": [
+    {
+      "category": "general",
+      "existing_controls": 13,
+      "geometry_differences": [],
+      "added_controls": 1
+    },
+    {
+      "category": "quest",
+      "existing_controls": 11,
+      "geometry_differences": [],
+      "added_controls": 0
+    },
+    {
+      "category": "network",
+      "existing_controls": 15,
+      "geometry_differences": [],
+      "added_controls": 0
+    },
+    {
+      "category": "extension",
+      "existing_controls": 11,
+      "geometry_differences": [],
+      "added_controls": 0
+    }
+  ],
+  "test_data": "Synthetic option settings; no game account or communication"
+}
